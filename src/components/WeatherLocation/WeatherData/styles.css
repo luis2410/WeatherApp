@@ -1,0 +1,43 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+.aling-in-center{
+    justify-content: center;
+    align-items: center;
+}
+.weatherDataCont{
+    background-color: blue;
+    width: 400px;
+    height: 200px;
+    line-height: 200px;
+    display: flex;
+    
+}
+
+.weatherExtraInfoCont{
+    background-color: red;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    
+}
+
+.weatherTemperatureCont{
+    background-color: yellow;
+    width: 60%;
+    height: 100%;
+    display: flex;
+   
+}
+
+.temperature{
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 20px;
+    color: #333333;
+}
+
+.temperatureType{
+    font-weight: bold;
+    color: #666666; 
+}
